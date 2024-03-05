@@ -1,0 +1,59 @@
+/************************************************
+## import google fonts
+************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/************************************************
+## global styles
+************************************************/
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+/************************************************
+## start form styling
+************************************************/
+form .input-field{
+	background: #f0f0f0;
+	width: 100%;
+	height: 50px;
+	margin: 10px 0;
+	padding: 0 10px;
+	display: grid;
+	grid-template-columns: 10% 90%;
+	align-items: center;
+	justify-items: stretch;
+}
+form .input-field svg {
+	line-height: 50px;
+	color: #acacac;
+	font-size: 1.2rem;
+}
+form .input-field input {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+}
+form .input-field input::placeholder {
+	color: #aaa;
+}
+form .social-icon a {
+	width: 50px;
+	height: 50px;
+	font-size: 1.6rem;
+	border: 2px solid #007bff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 .40rem;
+	text-decoration: none;
+	border-radius: 50%;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+}
+form .social-icon a:hover {
+	background: #007bff;
+	color: #fff;
+}
